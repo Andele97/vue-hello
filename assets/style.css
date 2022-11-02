@@ -1,0 +1,36 @@
+body {
+  background-color: aqua;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+ font-size: 2em;
+ margin-right: 10px;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+}
+
+button {
+  font-size: 1.5em;
+}
+
+img {
+  width: 90%;
+}
+
+.container {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input:last-of-type{
+  margin-bottom: 30px;
+}
