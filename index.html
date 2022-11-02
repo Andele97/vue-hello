@@ -16,8 +16,9 @@
     <div id="app">
       <input type="text" placeholder="inserisci il tuo nome" v-model="nome">
       <input type="text" placeholder="inserisci il tuo cognome" v-model="cognome">
-      <p>Ciao <strong>{{nome}} {{cognome}}</strong> <br>
+      <p>Ciao <span v-bind:class="myClass"><strong>{{nome}} {{cognome}}</strong></span> <br>
       inserisci la tua immagine preferita</p>
+      <button @click="myClass = 'red'">cambia colore</button>
 
       <input type="text" v-model="imgName"> 
       <button @click="changeImg('Chainsaw.webp')">Cambia immagine</button><br>

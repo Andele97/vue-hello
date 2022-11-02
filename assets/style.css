@@ -34,3 +34,11 @@ img {
 input:last-of-type{
   margin-bottom: 30px;
 }
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}

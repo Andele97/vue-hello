@@ -5,6 +5,7 @@ createApp({
     return{
       nome: '',
       cognome: '',
+      myClass: 'blue',
       path: './assets/img/',
       imgName: '',
     }
@@ -13,6 +14,10 @@ createApp({
   methods: {
     changeImg(newImg){
       this.imgName = newImg
+    },
+
+    changeColor(color){
+      this.my
     }
 
   }
